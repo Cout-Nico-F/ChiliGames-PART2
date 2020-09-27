@@ -1,0 +1,238 @@
+body{
+    background-color: rgba(245, 241, 11, 0.959);
+}
+
+nav{
+    text-align: center;
+    padding-top: 1vh;
+    padding-left: 1vw;
+}
+
+footer{
+    background-color: rgb(131, 131, 185);
+    color: white;
+    text-align: center;
+    margin-top: auto;
+    border-radius: 1rem;
+    max-height: 3rem;
+}
+
+footer > p{
+    text-align: inherit;
+    padding-top: 0.9rem;
+    font-size: 1.2vw;
+    color: rgb(143, 6, 6);
+    font-weight: bold;
+}
+
+.nav_buttons{
+    margin: auto;
+    background-color:sandybrown;
+    color:rgb(46, 46, 46);
+    text-decoration: none;
+    font-size:calc(12px + 0.8vw);
+    padding: 1.2vh;
+    border-radius: 2vh;
+}
+
+#img_ChiliGamesBanner{
+    width: 100%;
+    border-radius: 4vh;
+    margin: 2px;
+}
+
+#author-buttons{
+    display: flex;
+    margin-top: 2vh;
+}
+#form_contact{
+    width: 300px;
+    margin: auto;
+    padding: 1rem;
+}
+
+#caronilartButton{
+    justify-content: left;
+    background-color:rgb(230, 127, 161);
+    
+}
+
+#coutButton{
+    justify-content: right;
+    background-color: rgb(117, 199, 231);
+}
+
+#footCaronila{
+    background-color:rgb(235, 158, 171);
+}
+
+#footCout{
+    background-color: rgb(127, 143, 241);
+}
+
+#comingSoon{
+    display: flex;
+    justify-content: center;
+}
+
+#itchioButton{
+    display: flex;
+    justify-content: center;
+    max-width: 20rem;
+}
+
+/* Media Querys */
+
+@media screen and (max-width: 1260px)
+    {
+        #iframe_KTCyoutube{
+            text-align: center;
+        }
+
+        #KTCyoutube1{
+            height: auto;
+        }
+        body > h3{
+            text-align: center;
+            font-size: 3.5vw;
+        }
+        footer > p{
+            font-size: 3vw;
+        }
+        #itchioButton{
+            display: flex;
+            justify-content: center;
+            max-width: 14rem;
+        }
+        #authors{
+            justify-content: center;
+            font-size: 3.5vw;
+        }
+    }
+
+    @media screen and (min-width: 1260px) and (max-width: 1800px)
+    {
+        #iframe_KTCyoutube{
+            display: grid;
+            grid-template-columns: 32% 35% 32%;
+        }
+
+        #KTCyoutube1{
+            grid-column-start: 2;
+            width: 560px;
+            height: 315px;
+        }
+        body > h3{
+            text-align: center;
+            font-size: 2vw;
+        }
+        footer > p{
+            font-size: 1.3vw;
+        }
+        #authors{
+            justify-content: center;
+            font-size: 2vw;
+        }   
+    }
+
+    @media screen and (min-width: 1801px)
+    {
+        #iframe_KTCyoutube{
+            display: grid;
+            grid-template-columns: 35% 32% 32%;
+        }
+
+        #KTCyoutube1{
+            grid-column-start: 2;
+            width: 560px;
+            height: 315px;
+        }
+        body > h3{
+            text-align: center;
+            font-size: 2vw;
+        }
+        footer > p{
+            font-size: 1.1vw;
+        }
+        #authors{
+            justify-content: center;
+            font-size: 1.5vw;
+        }
+    }
+
+/* Animations */
+
+.bounceCss3 {
+    animation: bounce 1.2s ease-out;
+}
+
+.rezize-glowCss3 {
+    animation: rezize-glow 1.5s ease-in-out;
+    animation-iteration-count: 2;
+}
+
+@keyframes rezize-glow {
+    0% {
+        transform: scale(1);
+    }
+    /*
+    10%{
+        transform: scale(0.8);
+    }
+    20%{
+        transform: scale(0.7);
+    }
+    30%{
+        transform: scale(0.6);
+    }
+    40%{
+        transform: scale(0.5);
+    }
+    */
+    50%{
+        transform: scale(0.2);
+    }
+    /*
+    60%{
+        transform: scale(0.6);
+    }
+    70%{
+        transform: scale(0.7);
+    }
+    80%{
+        transform: scale(0.8);
+    }
+    90%{
+        transform: scale(0.9);
+    }
+    */
+    100%{
+        transform: scale(1);
+    }
+}
+
+@keyframes bounce {
+    0% {
+      transform:translateY(-100%);
+      opacity: 0;
+    }
+    15% {
+        transform:translateY(0);
+    }
+    30% {
+        transform:translateY(-45%);
+    }
+    40% {
+        transform:translateY(0%);
+    }
+    50% {
+        transform:translateY(-20%);
+    }
+    70% {
+        transform:translateY(0%);
+    }
+    100% {
+        transform:translateY(0);
+      opacity: 1;
+    }
+}

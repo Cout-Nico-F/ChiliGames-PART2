@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type= "image/ico" href="Images/headIcon.ico">
+    <link rel="stylesheet" href="CSS/main.css">
+    <title>Cout Nico-F</title>
+    <script src="https://kit.fontawesome.com/dbde3c8461.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+
+        <div id="HeaderContainer">
+            <div id="HeaderBannerContainer">
+                <img class="bounceCss3" id="img_ChiliGamesBanner" src="Images/HeaderBanner.png">
+            </div>
+        </div>
+        <nav>
+            <a class="nav_buttons" href="Index.html"> <i class="fas fa-door-open"> </i>Home</a>
+            <a class="nav_buttons" href="about.html"> <i class="fas fa-info-circle"> </i>About us</a>
+            <a class="nav_buttons" href="contact.html"> <i class="fas fa-id-card"> </i>Contact</a>
+        </nav>        
+    </header>
+    <div id="form_contact">
+        <form 
+        action="https://formspree.io/xvowneoe"
+        method="POST"
+        >
+            <label for="input_name">* Name: </label>
+            <input type="text" name="input_name" required/><br><br>
+            <label for="input_email">* Email: </label>
+            <input type="email" name="input_email" required/><br><br>
+            <label for="input_phone">  Phone Number: </label>
+            <input type="tel" name="input_phone"/><br><br>
+            <label for="input_birthday">  Birthday: </label>
+            <input type="date" name="input_birthday"/><br><br>
+            <label for="input_messaje">  Message: </label>
+            <textarea name="messaje" required></textarea><br><br>
+            <div style="display: inline;">
+                <button type="submit">Enviar</button>
+                <label for="">Fields with * are requiered</label>
+            </div>
+        <br>
+        </form>
+    </div>
+    <footer>
+        <p>All Rights Reserved @2020</p>
+        <br />
+    </footer>
+</body>
+</html>
