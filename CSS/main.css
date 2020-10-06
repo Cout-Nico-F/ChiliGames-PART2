@@ -20,6 +20,8 @@ footer{
     margin-top: auto;
     border-radius: 1rem;
     max-height: 3rem;
+    width: 98%;
+    margin-left: 1vw;
 }
 
 footer > p{
@@ -42,12 +44,6 @@ body > h3{
     font-size:calc(12px + 0.8vw);
     padding: 1.2vh;
     border-radius: 2vh;
-}
-
-#img_ChiliGamesBanner{
-    width: 100%;
-    border-radius: 4vh;
-    margin: 2px;
 }
 
 #authors{
@@ -122,6 +118,12 @@ body > h3{
             justify-content: center;
             font-size: 3.5vw;
         }
+        #img_ChiliGamesBanner{
+            width: 99%;
+            border-radius: 2vh;
+            margin: 1vw;
+            margin-top: 0.5vw;
+        }
     }
 
     @media screen and (min-width: 1260px) and (max-width: 1800px)
@@ -146,6 +148,12 @@ body > h3{
         #authors{
             justify-content: center;
             font-size: 2vw;
+        }
+        #img_ChiliGamesBanner{
+            width: 98%;
+            border-radius: 3vh;
+            margin: 1vw;
+            margin-top: 0.5vw;
         }   
     }
 
@@ -172,6 +180,14 @@ body > h3{
             justify-content: center;
             font-size: 1.5vw;
         }
+        #img_ChiliGamesBanner{
+            
+            width: 98%;
+            max-height: 16vh;
+            border-radius: 3vh;
+            margin: 1vw;
+            margin-top: 0.5vw;
+        }
     }
 
 /* Animations */
@@ -189,37 +205,11 @@ body > h3{
     0% {
         transform: scale(1);
     }
-    /*
-    10%{
-        transform: scale(0.8);
-    }
-    20%{
-        transform: scale(0.7);
-    }
-    30%{
-        transform: scale(0.6);
-    }
-    40%{
-        transform: scale(0.5);
-    }
-    */
+    
     50%{
         transform: scale(0.2);
     }
-    /*
-    60%{
-        transform: scale(0.6);
-    }
-    70%{
-        transform: scale(0.7);
-    }
-    80%{
-        transform: scale(0.8);
-    }
-    90%{
-        transform: scale(0.9);
-    }
-    */
+    
     100%{
         transform: scale(1);
     }
