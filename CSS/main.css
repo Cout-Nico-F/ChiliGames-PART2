@@ -1,5 +1,5 @@
 body{
-    background-color: rgba(245, 241, 11, 0.959);
+    background-color: rgba(245, 241, 11, 0.89);
 }
 
 a, a:hover, a:focus {
@@ -183,7 +183,7 @@ body > h3{
         #img_ChiliGamesBanner{
             
             width: 98%;
-            max-height: 16vh;
+            max-height: 17.5vh;
             border-radius: 3vh;
             margin: 1vw;
             margin-top: 0.5vw;
