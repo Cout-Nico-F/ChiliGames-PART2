@@ -4,7 +4,7 @@ body{
 
 a, a:hover, a:focus {
     text-decoration: none;
-    color: rgb(29, 0, 160);
+    color: rgba(11, 134, 7, 0.658);
 }
 
 nav{
@@ -89,6 +89,13 @@ body > h3{
     justify-content: center;
     max-width: 20rem;
     flex-wrap: wrap;
+}
+
+#KTCyoutube1{
+    border: dotted;
+    border-color: darkgreen;
+    padding: 0.1rem;
+    margin: 0.2rem;
 }
 
 /* Media Querys */
